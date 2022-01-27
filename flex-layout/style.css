@@ -9,13 +9,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.header{
+.header, .footer{
   display: flex;
   justify-content: space-between;
-  padding-right: 32px;
+  justify-content: space-between;
+  padding-right: 16px;
   padding: auto;
 }
-
 
 img {
   width: 600px;
@@ -44,13 +44,7 @@ input {
   align-items: center;
 }
 
-.footer{
-  display: flex;
-  justify-content: space-between;
-  background: #eeeeee;
-  padding-right: 32px;
-  margin-bottom: 16px;
-  }
+
 
 .left-links, .right-links{
   display: flex;
